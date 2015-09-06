@@ -1,0 +1,15 @@
+hardstatus alwayslastline #"%{= bw} %{= bc}[%{-}%0c%{= bc}]%{-} [%-Lw%{= bW}%{+b}%50>%n%f* %t%{-b}%{= bw}%+Lw]%<"
+#hardstatus string '%{= bw} %{= bc} [ %{G}%H %{g}][%{= bc} %= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}%{= bc}][%{B} %d/%m %{W}%c %{g}]' # %{= bc} is the background
+hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %d/%m %{W}%c %{g}]'
+bind s
+shelltitle "Rock N' Roll"  # dynamy naming windows
+#echo -ne "\ek$HOSTNAME\e\\"
+screen
+#screen
+#screen
+#screen
+#screen -t <title> <window_number> <command_to_run>
+#screen -t "Rock N' Roll" # sets title to sc 0
+#defutf8 on
+defscrollback 10000
+nethack on
